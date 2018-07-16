@@ -1,3 +1,6 @@
 *.pyc
 target
 .idea
+.idea/*
+test/*
+log
