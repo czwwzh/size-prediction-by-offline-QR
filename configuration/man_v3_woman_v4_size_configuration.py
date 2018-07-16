@@ -1,8 +1,8 @@
 import pandas
 
 # 1.模型计算所用变量定义-------------
-# # local
-# # man
+# local
+# man
 # StandardScaler_mlp_man_0 = "D:\\recommend\man_v3_woman_v4_size\StandardScaler_dim6_mlp_man_0"
 # StandardScaler_mlp_man_1 = "D:\\recommend\man_v3_woman_v4_size\StandardScaler_dim6_mlp_man_1"
 # StandardScaler_mlp_man_2 = "D:\\recommend\man_v3_woman_v4_size\StandardScaler_dim6_mlp_man_2"

@@ -2,17 +2,13 @@ import numpy
 import tensorflow
 import time
 
-# local
+
 from data.last_data import *
 from compute_etl_func import *
 from configuration.man_v3_woman_v4_size_configuration import *
 from util_log import *
 
-# prod
-# from data.last_data import *
-# from compute_etl_func import *
-# from configuration.man_v3_woman_v4_size_configuration import *
-# from util_log import *
+
 
 # 日志获取
 logger = get_logger(LOG_FILE_PATH,"size-predict-log")
