@@ -300,7 +300,7 @@ def man_v3_woman_v4_size_predict(data):
 
 
 # 日志获取
-logger = get_logger(LOG_FILE_PATH,"size-predict-log")
+logger = get_logger(LOG_FILE_PATH,"size-predict-log-1")
 
 app = Flask(__name__)
 

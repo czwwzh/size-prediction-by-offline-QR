@@ -1,5 +1,6 @@
 鞋码预测接口
-   接口地址：http://54.223.27.88:5000/size_predict
+   接口地址：http://54.223.27.88:5000/size_predict  旧
+            http://54.222.235.154:5000/size_predict  新
 
    post请求
    数据格式：
@@ -35,6 +36,6 @@
     245
 
 部分需要下载的包：
-pip3 install flask
-pip3 install request
-pip3 install tensorflow
+pip3 install flask -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip3 install request -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip3 install tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple/

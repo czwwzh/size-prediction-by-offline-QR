@@ -6,7 +6,7 @@ from util_log import *
 
 
 # 日志获取
-logger = get_logger(LOG_FILE_PATH,"size-predict-log")
+logger = get_logger(LOG_FILE_PATH,"size-predict-log-2")
 
 # 脚楦数据获取与处理函数定义
 # 脚数据解析
