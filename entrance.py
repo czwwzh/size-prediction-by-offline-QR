@@ -16,7 +16,7 @@ from flask import Flask, request
 
 from data.last_data import *
 from compute_etl_func import *
-from configuration.man_v3_woman_v4_size_configuration import *
+from configuration.man_v3_woman_v4_size_configuration_prod import *
 from util_log import *
 
 # 加载模型
@@ -312,7 +312,7 @@ def man_woman_size_compute():
         # 需要从request对象读取表单内容
         foot = request.form["result"]
         # logger.info(str(foot))
-        size_predict_result = None
+        size_predict_result = 0
         if foot != None:
             size_predict_result = man_v3_woman_v4_size_predict(foot)
         logger.info(str(size_predict_result))

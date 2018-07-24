@@ -1,7 +1,7 @@
 import json
 
 
-from configuration.man_v3_woman_v4_size_configuration import *
+from configuration.man_v3_woman_v4_size_configuration_prod import *
 from util_log import *
 
 
