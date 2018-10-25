@@ -61,7 +61,7 @@ StandardScaler_lgbm_woman_4 = "/root/projects/man_v3_woman_v4_size/StandardScale
 SIZE_DIMENSION_NAME_DIM6 = '/root/projects/man_v3_woman_v4_size/size_dimension_name_dim6'
 
 # 3.日志文件地址
-LOG_FILE_PATH ='/home/ec2-user/zhanghao/log/size_predict_offine_'
+LOG_FILE_PATH ='/root/log/offline/size_predict_offine_'
 
 # 4.size模型所需字段顺序定义
 FOOT_LAST_ORDER_DIMENSIONS_DIM6 = pandas.read_pickle(SIZE_DIMENSION_NAME_DIM6)
